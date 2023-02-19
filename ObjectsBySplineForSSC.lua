@@ -3,6 +3,7 @@
 -- Description: Place the object along the spline
 -- Icon:
 -- Hide: no
+-- Added the possibility to choose what you want to place along the spline - Vertuzek
 
 -- ### configuration ###
 local splinePiece = 1 -- in meters
@@ -79,4 +80,5 @@ while splinePosition <= 1.0 do
     i = i + 1
 end
 
-print("Ready for SplineConstructor")
+print("Done!")
+print("Ready for SplineConstructor!")
