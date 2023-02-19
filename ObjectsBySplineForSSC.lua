@@ -1,5 +1,5 @@
 -- Author: Ziuta
--- Name: Place Objects Along 
+-- Name: Place Objects Along The Spline
 -- Description: Place the object along the spline
 -- Icon:
 -- Hide: no
