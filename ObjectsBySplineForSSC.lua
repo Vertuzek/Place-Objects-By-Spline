@@ -6,7 +6,7 @@
 -- Added the possibility to choose what you want to place along the spline - Vertuzek
 
 -- ### configuration ###
-local splinePiece = 1 -- in meters
+local splinePiece = 5 -- in meters (when set to 1 i got warnings in SSC that points are to close)
 -- ### ------------- ###
 
 source("editorUtils.lua")
