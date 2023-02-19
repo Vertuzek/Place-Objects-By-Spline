@@ -2,6 +2,7 @@
 This Giants Editor script allows you to place objects along the spline that are ready to use as road points for Spline Street Constructor (SSC).
 The original author of this script is Ziuta.
 I only added the possibility to choose what you want to place along the spline.
+I HAVE HIS PERMISSION TO PUBLISH IT
 # Usage 
 # ENG 
 Go to AppData/Giants Editor 9.0.3/scripts.
