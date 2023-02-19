@@ -17,13 +17,6 @@ if splineID == 0 or getName(splineID) ~= "splinePlacement" then
     
     return
 end
-
-local placedObjects = getChild(splineID,"placedObjects")
-if placedObjects == 0 then
-    print("ERROR: 'objectsToPlace' not present!")
-    return
-end
-
 local objectsToPlace = getChild(splineID,"objectsToPlace")
 if objectsToPlace == 0 then
     print("ERROR: 'objectsToPlace' not present!")
@@ -35,7 +28,7 @@ local reqOTP = math.floor(splineLength/splinePiece)
 
 local placedObjects = createTransformGroup("placedObjects")
 link(splineID, placedObjects)
-local objectToPlaceTG = clone(getChildAt(objectsToPlace,iObject), false, true)
+local objectToPlaceTG = clone(getChildAt(objectsToPlace,0), false, true)
 link(placedObjects, objectToPlaceTG)
 for i=0,reqOTP-2,1 do
     local objectToPlace = clone(getChildAt(placedObjects, i), false, false, false)
