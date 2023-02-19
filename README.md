@@ -20,8 +20,10 @@ Then freeze the scale of this cube/plane and put it in the "objectsToPlace" tran
 Then go to "Scripts" (on the top hotbar) -> "Place Objects Along The Spline" and click it.
 After a few seconds, cubes will appear on your map.
 Then you simply export the "placedObjects" transform into an i3d file and generate your road using the Spline Street Constructor.
+In lua script you can also adjust the density with which objects will be placed
 
 It shoud look like this somewhat ![image](https://user-images.githubusercontent.com/119068295/219976060-87ab595b-b553-44ae-82ee-20416f072f0d.png)
+
 
 
 # PL 
@@ -41,5 +43,6 @@ Następnie wyzeruj skalę tego cuba/plane i umieść go w transformie "objectsTo
 Następnie przejdź do "Scripts" (na pasku narzędziowym na górze) -> "Place Objects Along The Spline" i kliknij go.
 Po kilku sekundach na twojej mapie pojawią się sześciany.
 Następnie wyeksportuj transform "placedObjects" do pliku i3d i wygeneruj swoją drogę za pomocą Spline Street Constructor.
+W skrypcie lua możesz również dostosować gęstość, z jaką zostaną umieszczone obiekty
 
 Powinno to wyglądać mniej więcej tak ![image](https://user-images.githubusercontent.com/119068295/219976070-391c33a4-0c98-4779-b670-e642dfe78822.png)
